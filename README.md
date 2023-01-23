@@ -112,9 +112,9 @@ If everything is working correctly,
 then the command should have no output.
 This means that you are passing all the tests.
 
-**NOTE:**
-On all your assignments in this class,
-you will lost 1 point for each test case that is not passing.
+> **NOTE:**
+> On all your assignments in this class,
+> you will lost 1 point for each test case that is not passing.
 
 ### Running the linter
 
@@ -152,10 +152,20 @@ Fixme.py:25:1: E302 expected 2 blank lines, found 1
 which tells you all of the linting errors your code has.
 Fix your code so that `flake8` reports no linting errors on your code.
 
-**NOTE:**
-The CI tests first run the linter, then run the doctests.
-If the linter fails, then no doctests will run, and you will get a 0 on your assignment.
-You should infer from this that learning good pythonic programming style is a very important part of your grade in this class.
+> **NOTE:**
+> If you get an error message that ends in
+> ```
+> BlockingIOError: [Errno 11] Resource temporarily unavailable
+> ```
+> then you can solve this by adding the `-j1` flag to your command to get
+> ```
+> $ flake8 -j1 Fixme.py
+> ```
+
+> **NOTE:**
+> The CI tests first run the linter, then run the doctests.
+> If the linter fails, then no doctests will run, and you will get a 0 on your assignment.
+> You should infer from this that learning good pythonic programming style is a very important part of your grade in this class.
 
 ### Using CI
 
@@ -196,9 +206,9 @@ After doing so, add the file to git, commit the file, and push your changes to g
 Now view your forked repo in your web browser.
 You should see a green badge instead of a red badge if you made all of the changes correctly.
 
-**NOTE:**
-Whenever the grader sees a green badge on your homework submissions,
-it guarantees full credit on the assignment.
+> **NOTE:**
+> Whenever the grader sees a green badge on your homework submissions,
+> it guarantees full credit on the assignment.
 
 ## Submission
 
@@ -209,9 +219,9 @@ https://github.com/mikeizbicki/continuous-integration
 ```
 but with your github username instead of mine.
 
-**IMPORTANT:**
-It is not enough in this class to simply push your final code onto github.
-The grader will not know to grade your code unless you also submit it into sakai.
+> **IMPORTANT:**
+> It is not enough in this class to simply push your final code onto github.
+> The grader will not know to grade your code unless you also submit it into sakai.
 
 <!--
 Linus Torvalds was here
