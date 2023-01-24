@@ -114,7 +114,7 @@ This means that you are passing all the tests.
 
 > **NOTE:**
 > On all your assignments in this class,
-> you will lost 1 point for each test case that is not passing.
+> you will lose 1 point for each test case that is not passing.
 
 ### Running the linter
 
@@ -212,7 +212,7 @@ You should see a green badge instead of a red badge if you made all of the chang
 
 ## Submission
 
-To submit this assignment, you will past the URL to your github repo into sakai.
+To submit this assignment, you will paste the URL to your github repo into sakai.
 The URL should be of the format
 ```
 https://github.com/mikeizbicki/continuous-integration
