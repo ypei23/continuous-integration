@@ -212,7 +212,7 @@ You should see a green badge instead of a red badge if you made all of the chang
 
 ## Submission
 
-To submit this assignment, you will post the URL to your github repo into sakai.
+To submit this assignment, you will paste the URL to your github repo into sakai.
 The URL should be of the format
 ```
 https://github.com/mikeizbicki/continuous-integration
