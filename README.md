@@ -18,6 +18,8 @@ For each test case that you fail, you will lose 1 point on the assignment.
 
 The workflow is summarized in the following diagram:
 
+to change something so that git can run 
+
 <p align=center>
 <img src=diagram.png?raw=true width=500px>
 </p>
